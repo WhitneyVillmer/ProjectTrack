@@ -1,6 +1,9 @@
 <html>
 <body>
 <h2>Hello World!</h2>
-<a href="/redirect"> Redirect me </a>
+<form action="/hello" method="POST">
+    <input name="studentName" type="text" placeholder="Student Name" />
+    <button type="submit">
+</form>
 </body>
 </html>
