@@ -3,10 +3,10 @@
  "http://java.sun.com/dtd/web-app_2_3.dtd" >
 
 <web-app>
-  <display-name>CoderGirl 2018 Hello Servlet</display-name>
+  <display-name>CoderGirl 2018 Save Servlet</display-name>
   <servlet>
-    <servlet-name>HelloServlet</servlet-name>
-    <servlet-class>servlets.HelloServlet</servlet-class>
+    <servlet-name>SaveServlet</servlet-name>
+    <servlet-class>servlets.SaveServlet</servlet-class>
   </servlet>
   <servlet>
     <servlet-name>RedirectServlet</servlet-name>
@@ -15,8 +15,8 @@
 
 
   <servlet-mapping>
-    <servlet-name>HelloServlet</servlet-name>
-    <url-pattern>/hello</url-pattern>
+    <servlet-name>SaveServlet</servlet-name>
+    <url-pattern>/save</url-pattern>
   </servlet-mapping>
   <servlet-mapping>
     <servlet-name>RedirectServlet</servlet-name>

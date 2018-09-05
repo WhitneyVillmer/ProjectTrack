@@ -1,8 +1,7 @@
 package servlets;
 
 import database.DBConnector;
-import sun.misc.Request;
-
+//import sun.misc.Request;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -20,11 +19,11 @@ public class RedirectServlet extends HttpServlet {
         try {
             Connection conn = new DBConnector().getConn();
             statement = conn.createStatement();
-            resultSet = statement.executeQuery("SELECT name FROM students");
+            resultSet = statement.executeQuery("SELECT * FROM user data");
             while(resultSet.next()) {
-                names.add(resultSet.getString("name"));
+                names.add(resultSet.getString(""));
             }
-            request.setAttribute("names", names);
+            request.setAttribute("album", names);
             RequestDispatcher dispatcher = request.getRequestDispatcher("redirected.jsp");
             dispatcher.forward(request, response);
 
