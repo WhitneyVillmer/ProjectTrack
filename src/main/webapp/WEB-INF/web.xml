@@ -8,19 +8,12 @@
     <servlet-name>SaveServlet</servlet-name>
     <servlet-class>servlets.SaveServlet</servlet-class>
   </servlet>
-  <servlet>
-    <servlet-name>RedirectServlet</servlet-name>
-    <servlet-class>servlets.RedirectServlet</servlet-class>
-  </servlet>
 
 
   <servlet-mapping>
     <servlet-name>SaveServlet</servlet-name>
     <url-pattern>/save</url-pattern>
   </servlet-mapping>
-  <servlet-mapping>
-    <servlet-name>RedirectServlet</servlet-name>
-    <url-pattern>/redirect</url-pattern>
-  </servlet-mapping>
+
 
 </web-app>

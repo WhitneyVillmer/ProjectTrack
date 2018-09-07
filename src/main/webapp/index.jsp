@@ -1,86 +1,45 @@
-<!
+<!DOCTYPE html>
 <html>
 <head>
-
 <style>
-.center {
-
-text-align: center;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
 }
 
-img {
-display: block;
-margin-left: auto;
-margin-right: auto;
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
 }
 </style>
 </head>
-
 <body>
 
-<br>
-
-<img src="taylorlogo.png" alt="Taylor Made">
-
-<div class="center">
-
-
-<font face="arial"</font>
-<font size="2"</font>
-<font
-
-
-<form action="/RedirectServlet" method="POST">
-<b>Real Name: </b><br>
-<input name="realName" type="text"> <br>
-
-<br>
-
-<b>User Name: </b><br>
-<input name="userName" type="text"> <br>
-
-<br>
-
-<b>Have you met Taylor? Let us know how! </b><br>
-(Select all that apply below!) <br>
-<select name="metArtist" multiple>
-<option value="Promotional Event">Promotional Event</option>
-<option value="Secret Session">Secret Session</option>
-<option value="T-Party">T-Party</option>
-<option value="Club Red">Club Red</option>
-<option value="Loft 1989">Loft 1989</option>
-<option value="Rep Room">Rep Room</option>
-<option value="Out and about!">Out and About!</option>
-<option value="Waited Outside an Event Taylor Attended">Waited Outside an Event Taylor Attended</option>
-</select> <br>
-<br>
-
-<b>Taylor has many ways of making fan connections! <br>
-Tell us about other types of interactions <br>
-you may have had with her or her team below! <br></b>
-(Select all that apply below!) <br>
-<select name="talkedToArtist" multiple>
-<option value="Followed on social media">Followed on social media</option>
-<option value="Taylor has joined my live stream">Taylor has joined my live stream</option>
-<option value="Taylor has commented on my post(s)">Taylor has commented on my post(s)</option>
-<option value="Taylor has retweeted/reblogged my post">Taylor has retweeted/reblogged my post<option>
-<option value="Taylor has liked my post(s)">Taylor has liked my post(s)</option>
-<option value="I have been selected for an invite only event!">I have been selected for an invite only event</option>
-</select> <br>
-
-<br>
-
-
-</form>
-
-<input type="submit" value="Submit"> <br>
-
-
-
-
-<br>
-
-</div>
+<ul>
+  <li><a href="CreateUser.jsp">Create New User</a></li>
+  <li><a href="#news">Member Sign In</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li style="float:right"><a class="active" href="#about">About</a></li>
+</ul>
 
 </body>
 </html>
+
