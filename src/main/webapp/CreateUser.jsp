@@ -3,6 +3,14 @@
 <head>
 
 <style>
+
+body {font-family: Verdana, Arial, Helvetica,
+     Futura, sans-serif;
+     font-size: 1em;
+     padding:0;
+     margin:0; }
+
+
 .center {
 
 text-align: center;
@@ -23,26 +31,22 @@ margin-right: auto;
 
 <br>
 
-<img src="taylorlogo.png">
+<img src="signup.png">
 
 <div class="center">
 
 
-<font face="arial"</font>
-<font size="2"</font>
-
-
-<b>Real Name: </b><br>
+Real Name: <br>
 <input name="realName" type="text"> <br>
 
 <br>
 
-<b>User Name: </b><br>
+User Name: <br>
 <input name="userName" type="text"> <br>
 
 <br>
 
-<b>Have you met Taylor? Let us know how! </b><br>
+Have you met Taylor? Let us know how! <br>
 (Select all that apply below!) <br>
 <select name="metArtist" multiple>
 <option value="Promotional Event">Promotional Event</option>
@@ -56,9 +60,9 @@ margin-right: auto;
 </select> <br>
 <br>
 
-<b>Taylor has many ways of making fan connections! <br>
+Taylor has many ways of making fan connections! <br>
 Tell us about other types of interactions <br>
-you may have had with her or her team below! <br></b>
+you may have had with her or her team below! <br>
 (Select all that apply below!) <br>
 <select name="talkedToArtist" multiple>
 <option value="Followed on social media">Followed on social media</option>
