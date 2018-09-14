@@ -27,7 +27,7 @@ margin-right: auto;
 <body>
 
 
-<form style="text-align:center;" action="/save">
+<form style="text-align:center;" action="/save" method="post">
 
 <br>
 
